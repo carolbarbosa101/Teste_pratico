@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <p>Hello Word</p>
-  </div>
+ <div>
+   <hero/>
+   <main class="container mx-auto">
+     <nuxt/>
+   </main>
+ </div>
 </template>
 
 <script>
-export default {}
+import hero from './components/layout/hero.vue'
+export default {
+  components: { hero },
+ }
 </script>
-
-<script></script>
+<style scoped></style>
