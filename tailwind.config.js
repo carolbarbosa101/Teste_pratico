@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        roboto: ['Roboto Slab', 'sans-serif'],
+        'roboto-slab': ['Roboto Slab', 'sans-serif'],
       }
     },
   },
