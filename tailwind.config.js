@@ -17,7 +17,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ['focus-visible'],
+      opacity: ['disabled'],
+    },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
