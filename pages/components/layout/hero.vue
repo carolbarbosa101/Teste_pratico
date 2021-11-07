@@ -1,181 +1,104 @@
 <template>
-  <div id="app" class="flex container h-screen w-full">
-    <!-- side nav -->
-    <div class="lg:w-1/5 border-r border-lighter px-2 lg:px-6 py-2 flex flex-col justify-between">
-      <div>
-        <button class="h-12 w-12 hover:bg-lightblue text-3xl rounded-full text-dark">
-          <i class="fab fa-twitter"></i>
-        </button>
+  <div id="app" class="flex flex-col h-screen w-full" style="background-color: #eeeeee">
+    <!-- Header -->
+    <div class="sticky top-0 bg-light border-b-2 border-dark">
+      <div class="container mx-auto flex justify-between py-2 w-full items-center">
+        <div class="flex justify-start align-middle">
+          <a href="#" class="flex align-middle p-2 text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+            <span class="pl-1">Home</span>
+          </a>
+          <a href="#" class="flex align-middle p-2 text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Notifications</span>
+          </a>
+          <a href="#" class="flex align-middle p-2 text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
+            </svg>
+            <span class="pl-1">Discover</span>
+          </a>
+          <a href="#" class="flex align-middle p-2 text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+            <span class="pl-1">Me</span>
+          </a>
+        </div>
+
+        <div class="flex justify-center align-middle">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><linearGradient id="_osn9zIN2f6RhTsY8WhY4a" x1="10.341" x2="40.798" y1="8.312" y2="38.769" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"/><stop offset="1" stop-color="#007ad9"/></linearGradient><path fill="url(#_osn9zIN2f6RhTsY8WhY4a)" d="M46.105,11.02c-1.551,0.687-3.219,1.145-4.979,1.362c1.789-1.062,3.166-2.756,3.812-4.758 c-1.674,0.981-3.529,1.702-5.502,2.082C37.86,8.036,35.612,7,33.122,7c-4.783,0-8.661,3.843-8.661,8.582 c0,0.671,0.079,1.324,0.226,1.958c-7.196-0.361-13.579-3.782-17.849-8.974c-0.75,1.269-1.172,2.754-1.172,4.322 c0,2.979,1.525,5.602,3.851,7.147c-1.42-0.043-2.756-0.438-3.926-1.072c0,0.026,0,0.064,0,0.101c0,4.163,2.986,7.63,6.944,8.419 c-0.723,0.198-1.488,0.308-2.276,0.308c-0.559,0-1.104-0.063-1.632-0.158c1.102,3.402,4.299,5.889,8.087,5.963 c-2.964,2.298-6.697,3.674-10.756,3.674c-0.701,0-1.387-0.04-2.065-0.122C7.73,39.577,12.283,41,17.171,41 c15.927,0,24.641-13.079,24.641-24.426c0-0.372-0.012-0.742-0.029-1.108C43.483,14.265,44.948,12.751,46.105,11.02"/></svg>
+        </div>
+
+        <div class="flex justify-end items-center">
+          <div class="mr-2 w-48 text-dark border border-dark flex items-center px-2 rounded-3xl h-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" class="boder-none w-36 bg-none" placeholder="Search Twitter" />
+          </div>
+
+          <a href="#" class="text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </a>
+
+          <a href="#" class="text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="container mx-auto flex justify-between gap-6 pt-1">
+      <!-- Sidebar -->
+      <div class="flex flex-col w-64">
+        <div class="bg-light rounded-2xl border mb-3 p-2">left top</div>
+
+        <div class="bg-light rounded-2xl border p-2">
+          <h3>Trends</h3>
+        </div>
+      </div>
+
+      <!-- Section -->
+      <div class="bg-light flex-1 flex flex-col rounded-2xl border">
+        <div class="p-2 border-b">
+          <h2 class="text-dark">Tweets</h2>
+        </div>
+
+        <!-- Twitters -->
         <div>
-          <button v-for="tab in tabs" @click="id = tab.id" :class="`focus:outline-none hover:text-blue flex items-center py-2 px-4 hover:bg-lightblue rounded-full mr-auto mb-3 ${ id === tab.id ? 'text-blue' : ''}`">
-            <i :class="`${ tab.icon } text-2xl mr-4 text-left`"></i>
-            <p class="text-lg font-semibold text-left hidden lg:block"> {{ tab.title }} </p>
-          </button>
+          ...
         </div>
-        <button class="text-white bg-blue rounded-full font-semibold focus:outline-none w-12 h-12 lg:h-auto lg:w-full p-3 hover:bg-darkblue">
-          <p class="hidden lg:block">Tweet</p>
-          <i class="fas fa-plus lg:hidden"></i>
-        </button>
       </div>
-      <div class="lg:w-full relative">
-        <button @click="dropdown = true" class="flex items-center w-full hover:bg-lightblue rounded-full p-2 focus:outline-none">
-          <img src="profile.png" class="w-10 h-10 rounded-full border border-lighter" />
-          <div class="hidden lg:block ml-4">
-            <p class="text-sm font-bold leading-tight"> Steph Dietz </p>
-            <p class="text-sm leading-tight"> @SaaSyEth </p>
-          </div>
-          <i class="hidden lg:block fas fa-angle-down ml-auto text-lg"></i>
-        </button>
-        <div v-if="dropdown === true" class="absolute bottom-0 left-0 w-64 rounded-lg shadow-md border-lightest bg-white mb-16">
-          <button @click="dropdown = false" class="p-3 flex items-center w-full hover:bg-lightest p-2 focus:outline-none">
-            <img src="profile.png" class="w-10 h-10 rounded-full border border-lighter" />
-            <div class="ml-4">
-              <p class="text-sm font-bold leading-tight"> Steph Dietz </p>
-              <p class="text-sm leading-tight"> @SaaSyEth </p>
-            </div>
-            <i class="fas fa-check ml-auto test-blue"></i>
-          </button>
-          <button @click="dropdown = false" class="w-full text-left hover:bg-lightest border-t border-lighter p-3 test-sm focus:outline-none">
-            Add an existing account
-          </button>
-          <button @click="dropdown = false" class="w-full text-left hover:bg-lightest border-t border-lighter p-3 test-sm focus:outline-none">
-            Log out @SaaSyEth
-          </button>
+
+      <!-- Section two -->
+      <div class="flex flex-col w-64">
+        <div class="bg-light rounded-2xl border mb-3 p-2">
+          <h3>Who to follow</h3>
+        </div>
+
+        <div class="bg-light rounded-2xl border p-2">
+          <h3>2014 Twitter ...</h3>
         </div>
       </div>
     </div>
-    <!-- tweets -->
-    <div class="w-full md:w-1/2 h-full overflow-y-scroll">
-      <div class="px-5 py-3 border-b border-lighter flex items-center justify-between">
-        <h1 class="text-xl font-bold">Home</h1>
-        <i class="far fa-star text-xl text-blue"></i>
-      </div>
-      <div class="px-5 py-3 border-b-8 border-lighter flex">
-        <div class="flex-none">
-          <img src="profile.png" class="flex-none w-12 h-12 rounded-full border border-lighter"/>
-        </div>
-        <form v-on:submit.prevent = "addNewTweet" class="w-full px-4 relative">
-          <textarea v-model="tweet.content" placeholder="What's up?" class="mt-3 pb-3 w-full focus:outline-none"/>
-          <div class="flex items-center">
-            <i class="text-lg text-blue mr-4 far fa-image"></i>
-            <i class="text-lg text-blue mr-4 fas fa-film"></i>
-            <i class="text-lg text-blue mr-4 far fa-chart-bar"></i>
-            <i class="text-lg text-blue mr-4 far fa-smile"></i>
-          </div>
-          <button type="submit" class="h-10 px-4 text-white font-semibold bg-blue hover:bg-darkblue focus:outline-none rounded-full absolute bottom-0 right-0">
-            Tweet
-          </button>
-        </form>
-      </div>
-      <div class="flex flex-col-reverse">
-        <div v-for="tweet in tweets" class="w-full p-4 border-b hover:bg-lighter flex">
-          <div class="flex-none mr-4">
-            <img src="profile.png" class="h-12 w-12 rounded-full flex-none"/>
-          </div>
-          <div class="w-full">
-            <div class="flex items-center w-full">
-              <p class="font-semibold"> Steph Dietz </p>
-              <p class="text-sm text-dark ml-2"> @SaaSyEth </p>
-              <p class="text-sm text-dark ml-2"> 1 sec </p>
-              <i class="fas fa-angle-down text-dark ml-auto"></i>
-            </div>
-            <p class="py-2">
-              {{ tweet.content }}
-            </p>
-            <div class="flex items-center justify-between w-full">
-              <div class="flex items-center text-sm text-dark">
-                <i class="far fa-comment mr-3"></i>
-                <p> 0 </p>
-              </div>
-              <div class="flex items-center text-sm text-dark">
-                <i class="fas fa-retweet mr-3"></i>
-                <p> 0 </p>
-              </div>
-              <div class="flex items-center text-sm text-dark">
-                <i class="fas fa-heart mr-3"></i>
-                <p> 1 </p>
-              </div>
-              <div class="flex items-center text-sm text-dark">
-                <i class="fas fa-share-square mr-3"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div v-for="follow in following" class="w-full p-4 border-b hover:bg-lighter flex">
-        <div class="flex-none mr-4">
-          <img :src="`${follow.src}`" class="h-12 w-12 rounded-full flex-none"/>
-        </div>
-        <div class="w-full">
-          <div class="flex items-center w-full">
-            <p class="font-semibold"> {{ follow.name }} </p>
-            <p class="text-sm text-dark ml-2"> {{ follow.handle }} </p>
-            <p class="text-sm text-dark ml-2"> {{ follow.time }} </p>
-            <i class="fas fa-angle-down text-dark ml-auto"></i>
-          </div>
-          <p class="py-2">
-            {{ follow.tweet }}
-          </p>
-          <div class="flex items-center justify-between w-full">
-            <div class="flex items-center text-sm text-dark">
-              <i class="far fa-comment mr-3"></i>
-              <p> {{ follow.comments }} </p>
-            </div>
-            <div class="flex items-center text-sm text-dark">
-              <i class="fas fa-retweet mr-3"></i>
-              <p> {{ follow.retweets }} </p>
-            </div>
-            <div class="flex items-center text-sm text-dark">
-              <i class="fas fa-heart mr-3"></i>
-              <p> {{ follow.like }} </p>
-            </div>
-            <div class="flex items-center text-sm text-dark">
-              <i class="fas fa-share-square mr-3"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- trending -->
-    <div class="md:block hidden w-1/3 h-full border-l border-lighter py-2 px-6 overflow-y-scroll relative">
-      <input class="pl-12 rounded-full w-full p-2 bg-lighter text-sm mb-4" placeholder="Search Twitter" />
-      <i class="fas fa-search absolute left-0 top-0 mt-5 ml-12 text-sm text-light"></i>
-      <div class="w-full rounded-lg bg-lightest">
-        <div class="flex items-center justify-between p-3">
-          <p class="text-lg font-bold">Trends for You</p>
-          <i class="fas fa-cog text-lg text-blue"></i>
-        </div>
-        <button v-for="trend in trending" class="w-full flex justify-between hover:bg-lighter p-3 border-t border-lighter">
-          <div>
-            <p class="text-xs text-left leading-tight text-dark"> {{ trend.top}} </p>
-            <p class="font-semibold text-sm text-left leading-tight"> {{ trend.title}} </p>
-            <p class="text-left text-sm leading-tight text-dark"> {{ trend.bottom}} </p>
-          </div>
-          <i class="fas fa-angle-down text-lg text-dark"></i>
-        </button>
-        <button class="p-3 w-full hover:bg-lighter text-left text-blue border-t border-lighter">
-          Show More
-        </button>
-      </div>
-      <div class="w-full rounded-lg bg-lightest my-4">
-        <div class=" p-3">
-          <p class="text-lg font-bold">Who to Follow</p>
-        </div>
-        <button v-for="friend in friends" class="w-full flex hover:bg-lighter p-3 border-t border-lighter">
-          <img :src="`${ friend.src }`" class="w-12 h-12 rounded-full border border-lighter" />
-          <div class="hidden lg:block ml-4">
-            <p class="text-sm font-bold leading-tight"> {{ friend.name }} </p>
-            <p class="text-sm leading-tight"> {{ friend.handle }} </p>
-          </div>
-          <button class="ml-auto text-sm text-blue py-1 px-4 rounded-full border-2 border-blue">
-            Follow
-          </button>
-        </button>
-        <button class="p-3 w-full hover:bg-lighter text-left text-blue border-t border-lighter">
-          Show More
-        </button>
-      </div>
-    </div>
+   
   </div>
 </template>
 
@@ -187,24 +110,10 @@ export default {
   data() {
     return {
       tabs: [
-        {icon: 'fas fa-home', title: 'Home', id:'home'},
-        {icon: 'fas fa-hashtag', title: 'Explore', id: 'explore'},
-        {icon: 'far fa-bell', title: 'Notifications', id: 'notifications'},
-        {icon: 'far fa-envelope', title: 'Messages', id: 'messages'},
-        {icon: 'far fa-bookmark', title: 'Bookmarks', id: 'bookmarks'},
-        {icon: 'fas fa-clipboard-list', title: 'Lists', id: 'lists'},
-        {icon: 'far fa-user', title: 'Profile', id: 'profile'},
-        {icon: 'fas fa-ellipsis-h', title: 'More', id: 'more'}
       ],
       id: 'home',
       dropdown: false,
-      trending: [
-        {top: 'Trending in TX', title: 'Gigi', bottom: 'Trending with: Rip Gigi'},
-        {top: 'Music', title: 'We Won', bottom: '135K Tweets'},
-        {top: 'Pop', title: 'Blue Ivy', bottom: '40k tweets'},
-        {top: 'Trending in US', title: 'Denim Day', bottom: '40k tweets'},
-        {top: 'Trending', title: 'When Beyonce', bottom: '25.4k tweets'},
-      ],
+      trending: [  ],
       friends: [
         {src: 'elon.jpg', name: 'Elon Musk', handle: '@teslaBoy'},
         {src: 'monk.jpg', name: 'Adrian Monk', handle: '@detective:)'},
