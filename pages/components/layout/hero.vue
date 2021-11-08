@@ -68,7 +68,9 @@
     <div class="container mx-auto flex justify-between gap-6 pt-1">
       <!-- Sidebar -->
       <div class="flex flex-col w-64">
-        <div class="bg-light rounded-2xl border mb-3 p-2">left top</div>
+        <div class="bg-light rounded-2xl border mb-3 p-2">left top
+          <div class="bg-light" > Cerem avci</div>
+        </div>
 
         <div class="bg-light rounded-2xl border p-2">
           <h3>Trends</h3>
