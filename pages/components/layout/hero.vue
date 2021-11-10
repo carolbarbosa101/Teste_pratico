@@ -68,8 +68,14 @@
     <div class="container mx-auto flex justify-between gap-6 pt-1">
       <!-- Sidebar -->
       <div class="flex flex-col w-64">
-        <div class="bg-light rounded-2xl border mb-3 p-2">left top
-          <div class="bg-light" > Cerem avci</div>
+        
+        <div class="bg-light rounded-2xl border mb-3 p-2">
+          <img src="http://www.w3.org/2000/svg"/>
+          </img>
+          <div class="bg-light rounded-2xl border mb-1 p-12">
+          
+          </div>
+          <div class="bg-light"> </div>
         </div>
 
         <div class="bg-light rounded-2xl border p-2">
