@@ -1,6 +1,6 @@
 # Interface
 <div align="center" >
-  <img src="https://user-images.githubusercontent.com/44561610/141233686-7678dc37-3cf6-46ac-9f2b-5c7b9f00ea21.PNG" alt="signup" height="425">
+  <img src="https://user-images.githubusercontent.com/44561610/141233686-7678dc37-3cf6-46ac-9f2b-5c7b9f00ea21.PNG" alt="signup" height="700">
 </div>
 <br>
 
