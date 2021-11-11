@@ -69,12 +69,15 @@
       <!-- Sidebar -->
       <div class="flex flex-col w-64">
         
-        <div class="bg-light rounded-2xl border mb-3 p-2">
-          <div class="bg-light rounded-2xl border mb-1 ">
+        <div class="flex bg-light rounded-2xl border mb-3 p-2">
+          <div class=" flex bg-light rounded-2xl border mb-1 ">
           <img
             class="w-20 h-20 rounded-full "  
-            src="https://media.istockphoto.com/photos/pleasant-young-indian-woman-freelancer-consult-client-via-video-call-picture-id1300972573?b=1&k=20&m=1300972573&s=170667a&w=0&h=xuAsEkMkoBbc5Nh-nButyq3DU297V_tnak-60VarrR0="/>
-            Carol Barbosa</img>
+            src="https://randomuser.me/api/portraits/women/72.jpg"/>
+            <div class="items-center">
+                <strong class="flex mr-2">Carol Barbosa</strong>
+                <span class="flex text-xs">@carolbarbosa</span>
+              </div>
           </div>
           <div class="bg-light"> </div>
         </div>
@@ -95,14 +98,222 @@
         </div>
 
         <!-- Twitters -->
-        <div>
-          <div>
+        <div class="flex flex-col">
+
+          <!-- start component -->
+          <div class="flex w-full p-2 border-b">
              <img
             class="w-20 h-20 rounded-full "  
-            src="https://media.istockphoto.com/photos/pleasant-young-indian-woman-freelancer-consult-client-via-video-call-picture-id1300972573?b=1&k=20&m=1300972573&s=170667a&w=0&h=xuAsEkMkoBbc5Nh-nButyq3DU297V_tnak-60VarrR0="/>
-              <h1> Carol Barbosa </h1><h3>@carolbarbosa </h3>
-            </img>
-          </div>
+            src="https://pbs.twimg.com/profile_images/1457798174005891072/IEhtt7bf_400x400.jpg"/>
+            <div class="flex flex-1 flex-col pl-3">
+              <div class="flex items-center">
+                <strong class="mr-2">Mel</strong> 
+                <span class="text-xs">@MellinaKong</span>
+              </div>
+              <p class="text-sm">What a wholesome commercial and announcement video</p>
+            <div class="flex justify-between items-center py-2">
+              <button>Expand</button>
+                
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+               <button>Reply</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <button>Retweet</button>
+              </span>
+              <span class="flex items-center text-dark">
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <button>Favorite</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                </svg>
+                <button>More</button>
+              </span>
+            </div>
+            </div>
+          </div><!-- end component -->
+
+          <!-- start component -->
+          <div class="flex w-full p-2 border-b">
+             <img
+            class="w-20 h-20 rounded-full "  
+            src="https://randomuser.me/api/portraits/women/68.jpg"/>
+            <div class="flex flex-1 flex-col pl-3">
+              <div class="flex items-center">
+                <strong class="mr-2">STÉFANI</strong> 
+                <span class="text-xs">@stefanibays</span>
+              </div>
+              <p class="text-sm">Estava olhando a agenda aqui e vi que tenho
+                conteúdo fit para postar hoje e amanhã, ela tá fitness sim! Haha</p>
+            <div class="flex justify-between items-center py-2">
+              <span>Expand</span>
+
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+               <button>Reply</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <button>Retweet</button>
+              </span>
+              <span class="flex items-center text-dark">
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <button>Favorite</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                </svg>
+                <button>More</button>
+              </span>
+            </div>
+            </div>
+          </div><!-- end component -->
+
+
+          <!-- start component -->
+          <div class="flex w-full p-2 border-b">
+             <img
+            class="w-20 h-20 rounded-full "  
+            src="https://pbs.twimg.com/profile_images/1445595246524391428/Tv3hF0-n_400x400.jpg"/>
+            <div class="flex flex-1 flex-col pl-3">
+              <div class="flex items-center">
+                <strong class="mr-2">BAD MI Mirella</strong> 
+                <span class="text-xs">@mirellasierra_</span>
+              </div>
+              <p class="text-sm">Sofri hoje kkkk emoção dói demais véi</p>
+            <div class="flex justify-between items-center py-2">
+              <span>Expand</span>
+
+             <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+               <button>Reply</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <button>Retweet</button>
+              </span>
+              <span class="flex items-center text-dark">
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <button>Favorite</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                </svg>
+                <button>More</button>
+              </span>
+            </div>
+            </div>
+          </div><!-- end component -->
+
+
+          <!-- start component -->
+          <div class="flex w-full p-2 border-b">
+             <img
+            class="w-20 h-20 rounded-full "  
+            src="https://pbs.twimg.com/profile_images/1350113126725918721/RJ1dP5Dv_400x400.jpg"/>
+            <div class="flex flex-1 flex-col pl-3">
+              <div class="flex items-center">
+                <strong class="mr-2">gabsfreindorfer</strong> 
+                <span class="text-xs">@gabsfreindorfer</span>
+              </div>
+              <p class="text-sm">minha foto sem o dog não é foto de vdd Smiling face with tear</p>
+               <!-- <img class="flex items-center" src="https://pbs.twimg.com/media/FDhyT8WUYAISk7Y?format=jpg"> </img> -->
+            <div class="flex justify-between items-center py-2">
+              <span>Expand</span>
+
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+               <button>Reply</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <button>Retweet</button>
+              </span>
+              <span class="flex items-center text-dark">
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <button>Favorite</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                </svg>
+                <button>More</button>
+              </span>
+            </div>
+            </div>
+          </div><!-- end component -->
+
+          <!-- start component -->
+          <div class="flex w-full p-2 border-b">
+             <img
+            class="w-20 h-20 rounded-full "  
+            src="https://pbs.twimg.com/profile_images/1455673494293856265/-p17kj4q_400x400.jpg"/>
+            <div class="flex flex-1 flex-col pl-3">
+              <div class="flex items-center">
+                <strong class="mr-2">Luísa</strong> 
+                <span class="text-xs">@luisasonza</span>
+              </div>
+              <p class="text-sm">Vcs acham que eu vou de que hj p minha festa? (Mudei de ideia vou sim de fantasia)</p>
+            <div class="flex justify-between items-center py-2">
+              <span>Expand</span>
+
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+               <button>Reply</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <button>Retweet</button>
+              </span>
+              <span class="flex items-center text-dark">
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <button>Favorite</button>
+              </span>
+              <span class="flex items-center text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                </svg>
+                <button>More</button>
+              </span>
+            </div>
+            </div>
+          </div><!-- end component -->
+
         </div>
       </div>
 
@@ -115,8 +326,7 @@
         <div class="bg-light rounded-2xl border p-2">
           <h3>2014 Twitter About Help Terms privacy
              Cookies Ads info Brand blog Status
-            Apps Jobs Advertise Business Media 
-            Developes</h3>
+            Apps Jobs Advertise Business Media Developes</h3>
         </div>
       </div>
     </div>
