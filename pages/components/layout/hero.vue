@@ -96,7 +96,13 @@
 
         <!-- Twitters -->
         <div>
-          ...
+          <div>
+             <img
+            class="w-20 h-20 rounded-full "  
+            src="https://media.istockphoto.com/photos/pleasant-young-indian-woman-freelancer-consult-client-via-video-call-picture-id1300972573?b=1&k=20&m=1300972573&s=170667a&w=0&h=xuAsEkMkoBbc5Nh-nButyq3DU297V_tnak-60VarrR0="/>
+              <h1> Carol Barbosa </h1><h3>@carolbarbosa </h3>
+            </img>
+          </div>
         </div>
       </div>
 
@@ -107,7 +113,10 @@
         </div>
 
         <div class="bg-light rounded-2xl border p-2">
-          <h3>2014 Twitter ...</h3>
+          <h3>2014 Twitter About Help Terms privacy
+             Cookies Ads info Brand blog Status
+            Apps Jobs Advertise Business Media 
+            Developes</h3>
         </div>
       </div>
     </div>
