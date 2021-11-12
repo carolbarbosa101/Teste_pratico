@@ -69,25 +69,61 @@
       <!-- Sidebar -->
       <div class="flex flex-col w-64">
         
-        <div class="flex bg-light rounded-2xl border mb-3 p-2">
-          <div class=" flex bg-light rounded-2xl border mb-1 ">
-          <img
-            class="w-20 h-20 rounded-full "  
-            src="https://randomuser.me/api/portraits/women/72.jpg"/>
-            <div class="items-center">
+        <div class="flex flex-col bg-light rounded-2xl border mb-3">
+          <div 
+            class=" 
+            flex 
+            bg-light 
+            rounded-t-2xl
+            border mb-1 
+            w-full
+            h-24"
+            style="
+              background-image: url(https://cdn.pixabay.com/photo/2021/10/23/03/35/mountain-6734031_960_720.jpg);
+              background-position: center;
+              background-size: cover;
+            "></div>
+            <div class="flex items-end px-3 -mt-6">
+              <img
+                class=" w-16 h-16 rounded-full "  
+                src="https://randomuser.me/api/portraits/women/72.jpg"
+              />
+              <div class="ml-2">
                 <strong class="flex mr-2">Carol Barbosa</strong>
                 <span class="flex text-xs">@carolbarbosa</span>
               </div>
+            </div>
+            
+          <div class="flex justify-between gap-2 p-3 border-b">
+            <div class="flex flex-col text-center">
+              <span class="mr-2">Tweets</span>
+              <strong class="text-xs">2,409</strong>
+            </div>
+            <div class="flex flex-col text-center">
+              <span class="mr-2">Tweets</span>
+              <strong class="text-xs">2,409</strong>
+            </div>
+            <div class="flex flex-col text-center">
+              <span class="mr-2">Tweets</span>
+              <strong class="text-xs">2,409</strong>
+            </div>
           </div>
-          <div class="bg-light"> </div>
+
+          <div class="flex p-3">
+            <input 
+              class="w-full border p-1"
+              type="text" 
+              placeholder="Compose new Tweet..." 
+            />
+          </div>
         </div>
 
-        <div class="bg-light rounded-2xl border p-2">
-          <h3>Trends</h3> </br>
-          <h3>#Loremipsumdolosit</h3>  </br>
-          <h3>#Loremipsumdolor</h3>  </br>
-          <h3>#Loremipsumd</h3>  </br>
-          <h3>#Loremipsum</h3>  </br>
+        <div class="bg-light rounded-2xl border p-2 flex flex-col">
+          <h3 class="text-dark font-bold mb-2">Trends</h3>
+          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumdolosit</a>
+          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumdolor</a>
+          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumd</a>
+          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsum</a>
         </div>
       </div>
 
@@ -240,7 +276,7 @@
                 <span class="text-xs">@gabsfreindorfer</span>
               </div>
               <p class="text-sm">minha foto sem o dog não é foto de vdd Smiling face with tear</p>
-               <!-- <img class="flex items-center" src="https://pbs.twimg.com/media/FDhyT8WUYAISk7Y?format=jpg"> </img> -->
+               <img class="flex items-center mr-5" src="https://pbs.twimg.com/media/FDhyT8WUYAISk7Y?format=jpg"> </img>
             <div class="flex justify-between items-center py-2">
               <span>Expand</span>
 
@@ -320,7 +356,53 @@
       <!-- Section two -->
       <div class="flex flex-col w-64">
         <div class="bg-light rounded-2xl border mb-3 p-2">
-          <h3>Who to follow</h3>
+          <h3 class="text-dark font-bold mb-2">Who to follow</h3>
+
+          <div class="flex items-center w-full flex-1 mb-3">
+            <img 
+              class=" w-10 h-10 rounded-full "  
+              src="https://randomuser.me/api/portraits/women/72.jpg" alt="User" />
+            <div class="flex flex-col ml-3 w-full">
+              <div class="flex items-center">
+                <strong class="mr-1">Carol</strong>
+                <span class="flex text-xs">@carolbarbosa</span>
+              </div>
+
+              <div>
+                <button class="rounded px-1 bg-primary text-light w-auto but">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="flex-1 h-full flex items-start">
+              <span>X</span>
+            </div>
+          </div>
+
+          <div class="flex items-center w-full flex-1 mb-3">
+            <img 
+              class=" w-10 h-10 rounded-full "  
+              src="https://randomuser.me/api/portraits/women/72.jpg" alt="User" />
+            <div class="flex flex-col ml-3 w-full">
+              <div class="flex items-center">
+                <strong class="mr-1">Carol</strong>
+                <span class="flex text-xs">@carolbarbosa</span>
+              </div>
+
+              <div>
+                <button class="rounded px-1 bg-primary text-light w-auto but">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="flex-1 h-full flex items-start">
+              <span>X</span>
+            </div>
+          </div>
+
+
         </div>
 
         <div class="bg-light rounded-2xl border p-2">
