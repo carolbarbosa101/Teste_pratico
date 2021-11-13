@@ -100,12 +100,12 @@
               <strong class="text-xs">2,409</strong>
             </div>
             <div class="flex flex-col text-center">
-              <span class="mr-2">Tweets</span>
-              <strong class="text-xs">2,409</strong>
+              <span class="mr-2">Following</span>
+              <strong class="text-xs">200</strong>
             </div>
             <div class="flex flex-col text-center">
-              <span class="mr-2">Tweets</span>
-              <strong class="text-xs">2,409</strong>
+              <span class="mr-2">Followers</span>
+              <strong class="text-xs">200</strong>
             </div>
           </div>
 
@@ -118,12 +118,15 @@
           </div>
         </div>
 
-        <div class="bg-gray-light rounded-2xl p-4 flex flex-col">
-          <h3 class="text-dark font-bold mb-2">Trends</h3>
-          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumdolosit</a>
-          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumdolor</a>
-          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsumd</a>
-          <a href="#" class="mb-1 text-sm font-medium text-dark">#Loremipsum</a>
+        <div class="bg-gray-light rounded-3xl p-6 flex flex-col">
+          <h3 class="text-dark font-bold mb-4">Trends</h3>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsumdolosit</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsumdolor</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsumd</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsum</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsumdolor</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsumd</a>
+          <a href="#" class="mb-4 text-sm font-medium text-dark">#Loremipsum</a>
         </div>
       </div>
 
@@ -195,30 +198,32 @@
             <div class="flex justify-between items-center py-2">
               <span>Expand</span>
 
-              <span class="flex items-center text-dark">
+            <div class="flex justify-end gap-5 text-gray-400 items-center py-2">
+              <span class="flex items-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                 </svg>
                <button>Reply</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
                 <button>Retweet</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center ">
                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
                 <button>Favorite</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                 </svg>
                 <button>More</button>
               </span>
+              </div>
             </div>
             </div>
           </div><!-- end component -->
@@ -238,30 +243,32 @@
             <div class="flex justify-between items-center py-2">
               <span>Expand</span>
 
-             <span class="flex items-center text-dark">
+            <div class="flex justify-end gap-5 text-gray-400 items-center py-2">
+             <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                 </svg>
                <button>Reply</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
                 <button>Retweet</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
                 <button>Favorite</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                 </svg>
                 <button>More</button>
               </span>
+              </div>
             </div>
             </div>
           </div><!-- end component -->
@@ -282,30 +289,32 @@
             <div class="flex justify-between items-center py-2">
               <span>Expand</span>
 
-              <span class="flex items-center text-dark">
+            <div class="flex justify-end gap-5 text-gray-400 items-center py-2">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                 </svg>
                <button>Reply</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
                 <button>Retweet</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
                 <button>Favorite</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                 </svg>
                 <button>More</button>
               </span>
+              </div>
             </div>
             </div>
           </div><!-- end component -->
@@ -324,30 +333,32 @@
             <div class="flex justify-between items-center py-2">
               <span>Expand</span>
 
-              <span class="flex items-center text-dark">
+            <div class="flex justify-end gap-5 text-gray-400 items-center py-2">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                 </svg>
                <button>Reply</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
                 <button>Retweet</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
                 <button>Favorite</button>
               </span>
-              <span class="flex items-center text-dark">
+              <span class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                 </svg>
                 <button>More</button>
               </span>
+              </div>
             </div>
             </div>
           </div><!-- end component -->
@@ -366,8 +377,8 @@
               src="https://randomuser.me/api/portraits/women/72.jpg" alt="User" />
             <div class="flex flex-col ml-3 w-full">
               <div class="flex items-center">
-                <strong class="mr-1">Carol</strong>
-                <span class="flex text-xs">@carolbarbosa</span>
+                <strong class="mr-1">Miriam</strong>
+                <span class="flex text-xs">@miriam</span>
               </div>
 
               <div>
@@ -388,8 +399,8 @@
               src="https://randomuser.me/api/portraits/women/72.jpg" alt="User" />
             <div class="flex flex-col ml-3 w-full">
               <div class="flex items-center">
-                <strong class="mr-1">Carol</strong>
-                <span class="flex text-xs">@carolbarbosa</span>
+                <strong class="mr-1">Luan</strong>
+                <span class="flex text-xs">@luan</span>
               </div>
 
               <div>
