@@ -16,6 +16,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
     "eslint-config-prettier": "^8.3.0",
+    "miragejs": "^0.1.42",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2"
   }
